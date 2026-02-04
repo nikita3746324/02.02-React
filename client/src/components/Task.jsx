@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-const API_URL_TASK = 'http://localhost:8000/tasks/tasks'
+const API_URL_TASK = 'http://localhost:8000/tasks/tasks/'
 
 const Task = () => {
 
@@ -58,6 +58,14 @@ const Task = () => {
         onChange={(e)=>setTitle(e.target.value)}/>
             <button type='submit'>Добавить</button>
         </form>
+        <ul>
+            {tasks.map(task => (
+                <li key={task.id}>
+                    {task.title}
+                    <button onClick={()=>deleteTask(task.id)}>Удалить</button>
+                </li>
+            ))}
+        </ul>
     </div>
   )
 }
