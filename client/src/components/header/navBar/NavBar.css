@@ -1,0 +1,18 @@
+.full{
+    display: flex;
+    gap: 600px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.about{
+    display: flex;
+    gap: 50px
+}
+
+.reg{
+    display: flex;
+    gap: 30px;
+}

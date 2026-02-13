@@ -1,0 +1,23 @@
+.layout{
+    display: flex;
+    gap: 30px;
+}
+.navlink{
+    font-size: 35px;
+    color:rgb(13, 2, 24);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px
+
+}
+.logo{
+    width: 300px;
+}
+.mainhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
