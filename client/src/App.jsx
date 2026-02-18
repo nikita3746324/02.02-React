@@ -18,6 +18,7 @@ import Login from './components/header/navBar/register/Login'
 import Home from './components/header/navBar/register/Home'
 import Layout from './components/header/navBar/register/Layout'
 import NavBar from './components/header/navBar/NavBar'
+import Body from './components/body/Body'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,7 +39,12 @@ function App() {
           <Route path='register' element={<Register/>}/>
           <Route path='login'element={<Login/>}/>
         </Routes>
+        <Routes>
+          <Route path='/' element={<SkillCardList/>}/>
+        </Routes>
       </BrowserRouter>
+
+      
     </>
   )
 }

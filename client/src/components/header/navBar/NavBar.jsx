@@ -9,6 +9,7 @@ const NavBar = () => {
         <img className='logo' src={logo} alt="" />
         <div className='about'>
           <h3>О себе</h3>
+          <h3>Познания</h3>
           <h3>Проекты</h3>
           <h3>Опыт работы</h3>
         </div>

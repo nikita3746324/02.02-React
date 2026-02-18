@@ -14,23 +14,28 @@ const Login = () => {
 
     return (
         <div className='glav'>
-            <h2>Страница входа</h2>
+            <div className='strvhod'>
+               <h2>Страница входа</h2> 
+            </div>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className='logindesing'>
                     <label>Логин</label>
                     <input
                     value={form.username}
                     onChange={(e) => setForm({...form,username:e.target.value})}
-                    placeholder='User'/>
+                    placeholder='login'/>
                 </div>
-                <div>
+                <div className='logindesing'>
                     <label>Пароль</label>
                     <input
                     value={form.password}
                     onChange={(e) => setForm({...form,password:e.target.value})}
-                    placeholder='Пароль'/>
+                    placeholder='password'/>
                 </div>
-                <button>Войти</button>
+                <div className='buttonlog'>
+                   <button>Войти</button> 
+                </div>
+                
             </form>
             <p>У вас нет аккаунта? <Link to='/register'>Зарегистрироваться</Link></p>
             <p>
