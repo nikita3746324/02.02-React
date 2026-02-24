@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Task from './components/Task'
 import Header from './components/header/Header'
-import SkillCard from './components/SkillCard'
-import SkillCardList from './components/SkillCardList'
+import SkillCard from './components/body/SkillCard'
+
 
 import { useState } from 'react'
 
@@ -19,6 +19,7 @@ import Home from './components/header/navBar/register/Home'
 import Layout from './components/header/navBar/register/Layout'
 import NavBar from './components/header/navBar/NavBar'
 import Body from './components/body/Body'
+import SkillCardList from './components/body/SkillCardList'
 
 function App() {
   const [count, setCount] = useState(0)
