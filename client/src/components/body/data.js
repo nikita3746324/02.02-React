@@ -6,26 +6,26 @@ import djangosvg from '../../assets/django.svg'
 export const skillcards = [
     {
         id:1,
-        Image:python,
+        image:python,
         title:'Python Backend',
         content:'Совсем базовые знания'
         // content:'Работа с нативным Python работа с библиотеками numpy,pandas,pytest,django,matplotlib,cryptography,flask,fastapi'
     },
     {
         id:2,
-        Image:javascript,
+        image:javascript,
         title:'JavaScript',
         content:'Работа с вебом в реакте, знаний меньше, чем в питоне('
     },
     {
         id:3,
-        Image:reactsvg,
+        image:reactsvg,
         title:'React',
         content:'Озы усвоены'
     },
     {
         id:4,
-        Image:djangosvg,
+        image:djangosvg,
         title:'Django',
         content:'Появляется понимание в базе данных'
     },

@@ -20,6 +20,8 @@ import Layout from './components/header/navBar/register/Layout'
 import NavBar from './components/header/navBar/NavBar'
 import Body from './components/body/Body'
 import SkillCardList from './components/body/SkillCardList'
+import Statetests from './components/Teory/Statetests'
+import Stateform from './components/Teory/Stateform'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +36,11 @@ function App() {
           <Route path='login'element={<Login/>}/>
         </Routes>
       </BrowserRouter> */}
-      <BrowserRouter>
+
+
+
+
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Header/>}/>
           <Route path='register' element={<Register/>}/>
@@ -43,9 +49,9 @@ function App() {
         <Routes>
           <Route path='/' element={<SkillCardList/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
-      
+      <Stateform/>
     </>
   )
 }
